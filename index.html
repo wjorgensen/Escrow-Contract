@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethereum Escrow Contract</title>
+</head>
+<body>
+    <h1>Ethereum Escrow Contract</h1>
+    
+    <h2>Set Password</h2>
+    <input type="text" id="passwordInput" placeholder="Enter Password">
+    <button onclick="setPassword()">Set Password</button>
+
+    <h2>Check Time Left</h2>
+    <button onclick="checkTimeLeft()">Check Time Left</button>
+    <p id="timeLeft"></p>
+
+    <h2>Successful Transaction</h2>
+    <input type="text" id="transactionPasswordInput" placeholder="Enter Password">
+    <button onclick="successfulTransaction()">Execute Transaction</button>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
